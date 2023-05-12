@@ -146,7 +146,6 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.last_sign = 0
             self.func_status = True
             self.button_push = True
-        self.total_num = float(self.output_box.text())
         self.enter_status = True
 
     def flipsign(self) -> None:
